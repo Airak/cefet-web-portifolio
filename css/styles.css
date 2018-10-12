@@ -1,0 +1,23 @@
+body{
+	background-color: #f8f1e5;
+}
+
+a{
+	outline: none;
+}
+
+.nopadding {
+   padding: 0px !important;
+   margin: 0px !important;
+}
+
+footer{
+	background-color: #343a40;
+	height: 5vh;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.rodape-conteudo{
+	color: #848484;
+}
