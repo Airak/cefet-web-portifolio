@@ -33,3 +33,36 @@ p{
 body{
 	font-family: 'Quattrocento', serif;
 }
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#image-gallery-image{
+	max-height: 500px;	
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-thumbnail{
+	width: 192.5px;
+	height: 192.5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-body{
+	text-align: center;
+}

@@ -8,15 +8,22 @@
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+
+	<!--Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--CSS-->    
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/projetos.css">
 </head>
 <body>
 	<div class="container-fluid">
@@ -67,113 +74,186 @@
 								<h2>Projetos</h2>
 							</div>							
 						</div>
-						<div class="row row-description">
+						<div class="row row-header">
 							<div class="col-sm">
 								<p>
 									Ao longo da minha graduação em Engenharia de Computação pelo <a href="http://www.cefetmg.br/">CEFET-MG</a> participei de uma séries de projetos, os que me proporcionaram uma série de experiencias que contribuiram para o meu desenvolvendo tanto pessoal quanto técnico. Abaixo são apresentados alguns deles.
 								</p>
 							</div>
 						</div>
-						<div class="row row-title" id="iniciacao">
-							<div class="col">
-								<h5>Uma solução otimizada para auxiliar no carregamento e distribuição de produtos (IC)</h5>
-							</div>							
-						</div>
-						<div class="row row-description">
-							<div class="col-sm-4">
-								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
-							</div>
-							<div class="col-sm">
-								<p>
-									O objetivo deste trabalho consiste em apresentar uma proposta de resolução conjunta dos problemas de roteamento de veículos capacitados com frotas heterogêneas e de empacotamento em três dimensões, os quais são responsáveis por minimizar os custos obtidos nas rotas de veículos e gerar o carregamento dos mesmos de forma que a ocupação do container do veículo seja a melhor possível. São problemas amplamente estudados na literatura, mas não de forma interligada.
-								</p>
-								<p>
-									 A resolução deste problema é de grande interesse ao meio logístico pela possibilidade de gerar soluções econômicas e concisas. Devido a sua alta complexidade a sua natureza é NP-Difícil, por isso foram utilizados metaheurísticas para buscar soluções eficientes ao longo do desenvolvimento desse trabalho.
-								</p>
-								<p>
-									 Para encontrar soluções eficientes para estes problemas, foram implementados os algoritmos de George Robinson e Clarke & Wright. Através do desenvolvimento e integração destes algoritmos obtivemos uma minimização da distância total percorrida pelos veículos de entrega e uma maximização da taxa de ocupação dos containeres, além disso o algoritmo foi implementado de forma a ser adaptável para o uso em ambientes cujas restrições sejam diferentes das já exploradas, como, por exemplo, restrições referentes a manuseio e/ou estabilidade dos objetos no container, a minimização do tempo de entrega, e outras, comprovando, portanto, a eficiência dos métodos estudados para a resolução deste tipo de problema. 
-								</p>
-								<p>
-									Este projeto teve a duração de dois anos, com ele pude conhecer mais a respeito da área de Otimização, área pela qual desenvolvi um grande interesse, também tive a oportunidade de apresentar o trabalho em duas edições da <a href="#semanact">Semana de Ciência & Tecnologia</a>. Este projeto foi fundamental para a minha formação acadêmica.
-								</p>
-							</div>
-						</div>
-						<div class="row row-title" id="gcc">
-							<div class="col">
-								<h5>Grupo de Computação Competitiva (GCC)</h5>
-							</div>							
-						</div>
-						<div class="row row-description">
-							<div class="col-sm-4">
-								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
-							</div>
-							<div class="col-sm">
-								<p>
-									O Grupo de Computação Competitiva é formado por alunos dos cursos técnicos de Redes e Informática e da Engenharia de Computação do <a href="http://www.cefetmg.br/">CEFET-MG</a>. Ele tem objetivo estimular a participação dos mesmos em competições relacionadas a sua área de atuação, bem como prepará-los para que estejam aptos a se sobressair nelas.
-								</p>
-								<p>
-									Eu tive a oportunidade de participar deste grupo durante dois anos e com isso ser um de seus representantes em competições de nível regional e nacional. As competições consistem na realização de uma prova contendo geralmente 12 problemas, para os quais deve-se implementar um algoritmo que os resolva. As equipes são formadas por 3 alunos de uma mesma universidade, e os mesmos tem cerca de 4 horas para desenvolver os algoritmos e submetê-los a aprovação. Junto com a descrição do problema os integrantes recebm um conjunto de entrada de dados e saída correspondente, possibilitando os primeiros testes do algoritmo. Ao submetê-los o algoritmo será validado com outros conjuntos que não são fornecidos aos alunos. Caso o algoritmo retorne as saídas esperadas para cada conjunto de entradas o algoritmo está correto. Além disso são levadas em consideração o tempo de execução dos mesmos, caso um algoritmo tenha uma complexidade muito alta existe a possibilidade dele não ser aceito. Ao final da competição as equipes são rankeadas de acordo com a quantidade de problemas resolvidos, tempo de resolução dos problemas e número de tentativas.
-								</p>
-								<p>
-									Participar deste grupo me ajudou a desenvolver a minha capacidade lógica para resolução de problemas e o trabalho em equipe, o que é fundamental para a formação de bons profissionais na área de computação.
-								</p>
+						<div class="row row-section"  id="iniciacao">
+							<div class="container">
+								<div class="row row-title">
+									<div class="col">
+										<h5>Uma solução otimizada para auxiliar no carregamento e distribuição de produtos (IC)</h5>
+									</div>							
+								</div>
+								<div class="row row-description">
+									<div class="col-sm">
+										<p>
+											O objetivo deste trabalho consiste em apresentar uma proposta de resolução conjunta dos problemas de roteamento de veículos capacitados com frotas heterogêneas e de empacotamento em três dimensões, os quais são responsáveis por minimizar os custos obtidos nas rotas de veículos e gerar o carregamento dos mesmos de forma que a ocupação do container do veículo seja a melhor possível. São problemas amplamente estudados na literatura, mas não de forma interligada.
+										</p>
+										<p>
+											 A resolução deste problema é de grande interesse ao meio logístico pela possibilidade de gerar soluções econômicas e concisas. Devido a sua alta complexidade a sua natureza é NP-Difícil, por isso foram utilizados metaheurísticas para buscar soluções eficientes ao longo do desenvolvimento desse trabalho.
+										</p>
+										<p>
+											 Para encontrar soluções eficientes para estes problemas, foram implementados os algoritmos de George Robinson e Clarke & Wright. Através do desenvolvimento e integração destes algoritmos obtivemos uma minimização da distância total percorrida pelos veículos de entrega e uma maximização da taxa de ocupação dos containeres, além disso o algoritmo foi implementado de forma a ser adaptável para o uso em ambientes cujas restrições sejam diferentes das já exploradas, como, por exemplo, restrições referentes a manuseio e/ou estabilidade dos objetos no container, a minimização do tempo de entrega, e outras, comprovando, portanto, a eficiência dos métodos estudados para a resolução deste tipo de problema. 
+										</p>
+										<p>
+											Este projeto teve a duração de dois anos, com ele pude conhecer mais a respeito da área de Otimização, área pela qual desenvolvi um grande interesse, também tive a oportunidade de apresentar o trabalho em duas edições da <a href="#semanact">Semana de Ciência & Tecnologia</a>. Este projeto foi fundamental para a minha formação acadêmica.
+										</p>
+									</div>
+								</div>
+								<div class="row row-image">
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_1.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_1.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="row row-title" id="semanact">
-							<div class="col">
-								<h5>Semana de Ciência & Tecnologia (C&T)</h5>
-							</div>							
+						<div class="row" id="gcc">
+							<div class="container">
+								<div class="row row-title">
+									<div class="col">
+										<h5>Grupo de Computação Competitiva (GCC)</h5>
+									</div>
+								</div>
+								<div class="row row-description">
+									<div class="col-sm">
+										<p>
+											O Grupo de Computação Competitiva é formado por alunos dos cursos técnicos de Redes e Informática e da Engenharia de Computação do <a href="http://www.cefetmg.br/">CEFET-MG</a>. Ele tem objetivo estimular a participação dos mesmos em competições relacionadas a sua área de atuação, bem como prepará-los para que estejam aptos a se sobressair nelas.
+										</p>
+										<p>
+											Eu tive a oportunidade de participar deste grupo durante dois anos e com isso ser um de seus representantes em competições de nível regional e nacional. As competições consistem na realização de uma prova contendo geralmente 12 problemas, para os quais deve-se implementar um algoritmo que os resolva. As equipes são formadas por 3 alunos de uma mesma universidade, e os mesmos tem cerca de 4 horas para desenvolver os algoritmos e submetê-los a aprovação. Junto com a descrição do problema os integrantes recebm um conjunto de entrada de dados e saída correspondente, possibilitando os primeiros testes do algoritmo. Ao submetê-los o algoritmo será validado com outros conjuntos que não são fornecidos aos alunos. Caso o algoritmo retorne as saídas esperadas para cada conjunto de entradas o algoritmo está correto. Além disso são levadas em consideração o tempo de execução dos mesmos, caso um algoritmo tenha uma complexidade muito alta existe a possibilidade dele não ser aceito. Ao final da competição as equipes são rankeadas de acordo com a quantidade de problemas resolvidos, tempo de resolução dos problemas e número de tentativas.
+										</p>
+										<p>
+											Participar deste grupo me ajudou a desenvolver a minha capacidade lógica para resolução de problemas e o trabalho em equipe, o que é fundamental para a formação de bons profissionais na área de computação.
+										</p>
+									</div>
+								</div>
+								<div class="row row-image">
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_1.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_1.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_2.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_2.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_3.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_3.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_4.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_4.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+								</div>
+							</div>						
 						</div>
-						<div class="row row-description">
-							<div class="col-sm-4">
-								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
-							</div>
-							<div class="col-sm">
-								<p>
-									A <a href="http://www.semanact.cefetmg.br/">Semana de Ciência & Tecnologia</a> é um evento anual, o qual é aberto ao público e reúne alunos, professores e funcionários em torno de debates, seminários, minicursos e conferências sobre cultura, ciência e tecnologia, e diversas outras áreas. Ela ocorre dentro do calendário da Semana Nacional de Ciência & Tecnologia promovido pelo Mnistério de Ciência e Tecnologia do Governo Federal.
-								</p>
-								<p>
-									Particei das edições de 2016/17/18, onde apresentei os meus dois anos de <a href="#iniciacao">Iniciação Científica</a> e o projeto <a href="#cobertura_max">"Problema de máxima cobertura aplicado nos assentamentos de ajuda humanitária"</a>. Através deste evento pude expor os meus trabalhos e receber um feed-back da comunidade, o que é muito interessante, uma vez que assim você acaba estimulando a troca de ideias e o surgimento de novos cohecimentos.
-								</p>
-							</div>
-						</div>
-						<div class="row row-title" id="cobertura_max">
-							<div class="col">
-								<h5>Problema de máxima cobertura aplicado nos assentamentos de ajuda humanitária</h5>
-							</div>							
-						</div>
-						<div class="row row-description">
-							<div class="col-sm-4">
-								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
-							</div>
-							<div class="col-sm">
-								<p>
-									O Problema da Máxima Cobertura consiste em localizar em um grafo os nodos que selecionados cubram a maior área possível, podendo ser representada como a maior quantidade possível de vértices, através da definição de k subconjuntos, maximizando a união entre os mesmos, ou seja, maximizar a área máxima coberta. É considerado um problema NP-completo clássico da teoria da complexidade computacional e possui diversas aplicações em problemas reais, como a procura da melhor localização para infraestruturas ou qualquer tipo de problema que exija uma cobertura máxima de uma área/conjunto. 
-								</p>
-								<p>
-									O objetivo deste trabalho é apresentar um algoritmo heurístico baseado em Algoritmos Genéticos para a resolução deste problema. É esperado através deste estudo ser capaz de determinar de forma eficaz possíveis melhores locais com a intenção de maximizar a cobertura sobre um conjunto de sub-conjuntos. Será abordado neste artigo uma aplicação real e prática deste clássico problema da otimização, seu uso na localização de postos de ajuda humanitária em um assentamento de refugiados. No decorrer do artigo será abordado com maiores detalhes as escolhas tomadas e os pormenores do desenvolvimento. Foram obtidos resultados satisfatórios na solução do problema, tendo um grande potencial para problemas de larga escala. Este trabalho contribui com uma abordagem própria de resolução do problema da Máxima Cobertura, sendo consideravelmente confiável.
-								</p>
+						<div class="row" id="semanact">
+							<div class="container">
+								<div class="row row-title">
+									<div class="col">
+										<h5>Semana de Ciência & Tecnologia (C&T)</h5>
+									</div>							
+								</div>
+								<div class="row row-description">
+									<div class="col-sm">
+										<p>
+											A <a href="http://www.semanact.cefetmg.br/">Semana de Ciência & Tecnologia</a> é um evento anual, o qual é aberto ao público e reúne alunos, professores e funcionários em torno de debates, seminários, minicursos e conferências sobre cultura, ciência e tecnologia, e diversas outras áreas. Ela ocorre dentro do calendário da Semana Nacional de Ciência & Tecnologia promovido pelo Mnistério de Ciência e Tecnologia do Governo Federal.
+										</p>
+										<p>
+											Particei das edições de 2016/17/18, onde apresentei os meus dois anos de <a href="#iniciacao">Iniciação Científica</a> e o projeto <a href="#cobertura_max">"Problema de máxima cobertura aplicado nos assentamentos de ajuda humanitária"</a>. Através deste evento pude expor os meus trabalhos e receber um feed-back da comunidade, o que é muito interessante, uma vez que assim você acaba estimulando a troca de ideias e o surgimento de novos cohecimentos.
+										</p>
+									</div>
+								</div>						
+								<div class="row row-image">
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/semanact.png" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/semanact.png"
+										alt="Another alt text">
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="row row-title" id="liber">
-							<div class="col">
-								<h5>Liber</h5>
-							</div>							
-						</div>
-						<div class="row row-description">
-							<div class="col-sm-4">
-								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+
+						<div class="row" id="cobertura_max">
+							<div class="container">
+								<div class="row row-title">
+									<div class="col">
+										<h5>Problema de máxima cobertura aplicado nos assentamentos de ajuda humanitária</h5>
+									</div>							
+								</div>
+								<div class="row row-description">
+									<div class="col-sm">
+										<p>
+											O Problema da Máxima Cobertura consiste em localizar em um grafo os nodos que selecionados cubram a maior área possível, podendo ser representada como a maior quantidade possível de vértices, através da definição de k subconjuntos, maximizando a união entre os mesmos, ou seja, maximizar a área máxima coberta. É considerado um problema NP-completo clássico da teoria da complexidade computacional e possui diversas aplicações em problemas reais, como a procura da melhor localização para infraestruturas ou qualquer tipo de problema que exija uma cobertura máxima de uma área/conjunto. 
+										</p>
+										<p>
+											O objetivo deste trabalho é apresentar um algoritmo heurístico baseado em Algoritmos Genéticos para a resolução deste problema. É esperado através deste estudo ser capaz de determinar de forma eficaz possíveis melhores locais com a intenção de maximizar a cobertura sobre um conjunto de sub-conjuntos. Será abordado neste artigo uma aplicação real e prática deste clássico problema da otimização, seu uso na localização de postos de ajuda humanitária em um assentamento de refugiados. No decorrer do artigo será abordado com maiores detalhes as escolhas tomadas e os pormenores do desenvolvimento. Foram obtidos resultados satisfatórios na solução do problema, tendo um grande potencial para problemas de larga escala. Este trabalho contribui com uma abordagem própria de resolução do problema da Máxima Cobertura, sendo consideravelmente confiável.
+										</p>
+									</div>
+								</div>
+								<div class="row row-image">
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_1.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_1.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+								</div>
 							</div>
-							<div class="col-sm">
-								<p>
-									O Liber surgiu de um projeto de férias, onde eu tinha como propósito o desenvolvimento de um sistema web que possibilitasse o gerenciamento do acervo de livros. Ao pesquisar por ferramentas que tivessem este propóstio me deparei com uma série de ferramente que possuaiam várias falhas de usabilidade e entre outras, o que prejudicava e limitava bastante o uso pelos usuários. Sendo assim me propus a pesquisar mais a respeito e desenvolver uma ferramenta que pudesse ser utilizada pela comunidade de leitores. 
-								</p>
-								<p>
-									Durante o desenvolvimento da ideia, percebi que esta ferramenta tinha potencial para a facilitação do acesso a leitura e o incentivo da mesma, ao permitir que outros usuários pudessem visualizar o acervo de livro de seus amigos e com base nisso encontrar livros que fossem de seu interesse.
-								</p>
-								<p>
-									Esta ferramenta ainda se encontra no processo de desenvolvimento, já foram realizados um levantamento de sistemas que possuam uma proposta similar (embora nenhum deles contemple todas as funcionalidades do sistema em desenvolvimento) e testes de usabilidade para o fornecimento de uma análise prévia das falhas que o sistema pretende mitigar, além dos resultados para uma ańálise comparativa dos sistemas ao término do desenvolvimento.
-								</p>
+						</div>
+
+						<div class="row" id="liber">
+							<div class="container">
+								<div class="row row-title">
+									<div class="col">
+										<h5>Liber</h5>
+									</div>							
+								</div>
+								<div class="row row-description">
+									<div class="col-sm">
+										<p>
+											O Liber surgiu de um projeto de férias, onde eu tinha como propósito o desenvolvimento de um sistema web que possibilitasse o gerenciamento do acervo de livros. Ao pesquisar por ferramentas que tivessem este propóstio me deparei com uma série de ferramente que possuaiam várias falhas de usabilidade e entre outras, o que prejudicava e limitava bastante o uso pelos usuários. Sendo assim me propus a pesquisar mais a respeito e desenvolver uma ferramenta que pudesse ser utilizada pela comunidade de leitores. 
+										</p>
+										<p>
+											Durante o desenvolvimento da ideia, percebi que esta ferramenta tinha potencial para a facilitação do acesso a leitura e o incentivo da mesma, ao permitir que outros usuários pudessem visualizar o acervo de livro de seus amigos e com base nisso encontrar livros que fossem de seu interesse.
+										</p>
+										<p>
+											Esta ferramenta ainda se encontra no processo de desenvolvimento, já foram realizados um levantamento de sistemas que possuam uma proposta similar (embora nenhum deles contemple todas as funcionalidades do sistema em desenvolvimento) e testes de usabilidade para o fornecimento de uma análise prévia das falhas que o sistema pretende mitigar, além dos resultados para uma ańálise comparativa dos sistemas ao término do desenvolvimento.
+										</p>
+									</div>
+								</div>						
+								<div class="row row-image">
+									<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+										<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="media/gcc_1.jpg" data-target="#image-gallery">
+										<img class="img-thumbnail"
+										src="media/gcc_1.jpg"
+										alt="Another alt text">
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -185,8 +265,31 @@
 						</footer>
 					</div>
 				</div>
+				<!--Modal-->
+				<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		            <div class="modal-dialog modal-lg">
+		                <div class="modal-content">
+		                    <div class="modal-header">
+		                        <h4 class="modal-title" id="image-gallery-title"></h4>
+		                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+		                        </button>
+		                    </div>
+		                    <div class="modal-body">
+		                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+		                    </div>
+		                    <div class="modal-footer">
+		                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+		                        </button>
+
+		                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+		                        </button>
+		                    </div>
+		                </div>
+		            </div>
+	        	</div>	
 			</div>
 		</div>
+		<script type="text/javascript" src="js/galery.js"></script>
 	</div>
 </body>
 </html>
