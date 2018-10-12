@@ -21,3 +21,15 @@ footer{
 .rodape-conteudo{
 	color: #848484;
 }
+
+h1, h2, h3, h4, h5{
+	font-family: 'Oswald', sans-serif;
+}
+
+p{
+	font-family: 'Quattrocento', serif;
+}
+
+body{
+	font-family: 'Quattrocento', serif;
+}

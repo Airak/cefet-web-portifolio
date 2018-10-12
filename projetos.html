@@ -1,9 +1,180 @@
 <!DOCTYPE html>
+
+<html lang="pt-br">
 <html>
 <head>
 	<title>Projetos</title>
+	<meta charset="UTF-8"> 
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet"> 
 </head>
 <body>
-
+	<div class="container-fluid">
+		<div class="row">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12  nopadding">
+						<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+							<div class="container">
+							<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+								<ul class="navbar-nav mr-auto">
+									<a class="navbar-brand mx-auto" href="#">Matheus Martins Aguiar</a>
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+								</ul>
+							</div>
+							<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+								<ul class="navbar-nav ml-auto">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Sobre</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="projetos.html">Projetos</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="curriculo.html">Currículo</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contato.html">Contato</a>
+									</li>
+								</ul>
+							</div></div>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 nopadding">
+						<div id="header">
+							<img id="img_header" class="img-fluid" src="media/Header/4-prototyping-process-models-header.png" alt="Imagem do header">
+						</div>
+					</div>
+				</div>
+				<div class="row">					
+					<div class="container container-conteudo">
+						<div class="row">
+							<div class="col">
+								<h2>Projetos</h2>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm">
+								<p>
+									Ao longo da minha graduação em Engenharia de Computação pelo <a href="http://www.cefetmg.br/">CEFET-MG</a> participei de uma séries de projetos, os que me proporcionaram uma série de experiencias que contribuiram para o meu desenvolvendo tanto pessoal quanto técnico. Abaixo são apresentados alguns deles.
+								</p>
+							</div>
+						</div>
+						<div class="row row-title">
+							<div class="col">
+								<h5>Uma solução otimizada para auxiliar no carregamento e distribuição de produtos (IC)</h5>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm-4">
+								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+							</div>
+							<div class="col-sm">
+								<p>
+									Participei durante dois anos de um projeto de Iniciação Científica que tinha como objetivo apresentar uma proposta de resolução conjunta dos problemas de roteamento de veículos capacitados com frotas heterogêneas e de empacotamento em três dimensões, os quais são responsáveis por minimizar os custos obtidos nas rotas de veículos e gerar o carregamento dos mesmos de forma que a ocupação do container do veículo seja a melhor possível. São problemas amplamente estudados na literatura, mas não de forma interligada.
+								</p>
+								<p>
+									 A resolução deste problema é de grande interesse ao meio logístico pela possibilidade de gerar soluções econômicas e concisas. Devido a sua alta complexidade a sua natureza é NP-Difícil, por isso foram utilizados metaheurísticas para buscar soluções eficientes ao longo do desenvolvimento desse trabalho.
+								</p>
+								<p>
+									 Para encontrar soluções eficientes para estes problemas, foram implementados os algoritmos de George Robinson e Clarke & Wright. Através do desenvolvimento e integração destes algoritmos obtivemos uma minimização da distância total percorrida pelos veículos de entrega e uma maximização da taxa de ocupação dos containeres, além disso o algoritmo foi implementado de forma a ser adaptável para o uso em ambientes cujas restrições sejam diferentes das já exploradas, como, por exemplo, restrições referentes a manuseio e/ou estabilidade dos objetos no container, a minimização do tempo de entrega, e outras, comprovando, portanto, a eficiência dos métodos estudados para a resolução deste tipo de problema. 
+								</p>
+							</div>
+						</div>
+						<div class="row row-title">
+							<div class="col">
+								<h5>Grupo de Computação Competitiva (GCC)</h5>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm-4">
+								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+							</div>
+							<div class="col-sm">
+								<p>
+									O Grupo de Computação Competitiva é formado por alunos dos cursos técnicos de Redes e Informática e da Engenharia de Computação do <a href="http://www.cefetmg.br/">CEFET-MG</a>. Ele tem objetivo estimular a participação dos mesmos em competições relacionadas a sua área de atuação, bem como prepará-los para que estejam aptos a se sobressair nelas.
+								</p>
+								<p>
+									Eu tive a oportunidade de participar deste grupo durante dois anos e com isso ser um de seus representantes em competições de nível regional e nacional. As competições consistem na realização de uma prova contendo geralmente 12 problemas, para os quais deve-se implementar um algoritmo que os resolva. As equipes são formadas por 3 alunos de uma mesma universidade, e os mesmos tem cerca de 4 horas para desenvolver os algoritmos e submetê-los a aprovação. Junto com a descrição do problema os integrantes recebm um conjunto de entrada de dados e saída correspondente, possibilitando os primeiros testes do algoritmo. Ao submetê-los o algoritmo será validado com outros conjuntos que não são fornecidos aos alunos. Caso o algoritmo retorne as saídas esperadas para cada conjunto de entradas o algoritmo está correto. Além disso são levadas em consideração o tempo de execução dos mesmos, caso um algoritmo tenha uma complexidade muito alta existe a possibilidade dele não ser aceito. Ao final da competição as equipes são rankeadas de acordo com a quantidade de problemas resolvidos, tempo de resolução dos problemas e número de tentativas.
+								</p>
+								<p>
+									Participar deste grupo me ajudou a desenvolver a minha capacidade lógica para resolução de problemas e o trabalho em equipe, o que é fundamental para a formação de bons profissionais na área de computação.
+								</p>
+							</div>
+						</div>
+						<div class="row row-title">
+							<div class="col">
+								<h5>Semana de Ciência e Tecnologia (C&T)</h5>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm-4">
+								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+							</div>
+							<div class="col-sm">
+								<p>
+									Meu nome é Matheus Martins Aguiar, sou estudante de Engenharia de Computação no <a href="http://www.cefetmg.br/">Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</a>. O interesse pela área de tecnologia surgiu quando eu ainda era criança, sempre que o computador estragava, eu procurava meios de consertá-lo, por sorte nunca cheguei a queimar algum periférico durante o processo. Além disso possuo alguns parentes que trabalham na área e isso serviu para que eu me interasse ainda mais. Algo que acho muito legal em computação é a capacidade que ela possui de transformar a vida das pessoas, assim como a possibilidade de se trabalhar em várias áreas distintas.
+								</p>
+							</div>
+						</div>
+						<div class="row row-title">
+							<div class="col">
+								<h5>Liber (TCC)</h5>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm-4">
+								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+							</div>
+							<div class="col-sm">
+								<p>
+									Meu nome é Matheus Martins Aguiar, sou estudante de Engenharia de Computação no <a href="http://www.cefetmg.br/">Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</a>. O interesse pela área de tecnologia surgiu quando eu ainda era criança, sempre que o computador estragava, eu procurava meios de consertá-lo, por sorte nunca cheguei a queimar algum periférico durante o processo. Além disso possuo alguns parentes que trabalham na área e isso serviu para que eu me interasse ainda mais. Algo que acho muito legal em computação é a capacidade que ela possui de transformar a vida das pessoas, assim como a possibilidade de se trabalhar em várias áreas distintas.
+								</p>
+							</div>
+						</div>
+						<div class="row row-title">
+							<div class="col">
+								<h5>Problema de máxima cobertura aplicado nos assentamentos de ajuda humanitária</h5>
+							</div>							
+						</div>
+						<div class="row row-description">
+							<div class="col-sm-4">
+								<img id="img_user" class="img-fluid img-circle" src="media/matheus.jpeg" alt="Imagem de usuário">
+							</div>
+							<div class="col-sm">
+								<p>
+									O Problema da Máxima Cobertura consiste em localizar em um grafo os nodos que selecionados cubram a maior área possível, podendo ser representada como a maior quantidade possível de vértices, através da definição de k subconjuntos, maximizando a união entre os mesmos, ou seja, maximizar a área máxima coberta. É considerado um problema NP-completo clássico da teoria da complexidade computacional e possui diversas aplicações em problemas reais, como a procura da melhor localização para infraestruturas ou qualquer tipo de problema que exija uma cobertura máxima de uma área/conjunto. 
+								</p>
+								<p>
+									O objetivo deste trabalho é apresentar um algoritmo heurístico baseado em Algoritmos Genéticos para a resolução deste problema. É esperado através deste estudo ser capaz de determinar de forma eficaz possíveis melhores locais com a intenção de maximizar a cobertura sobre um conjunto de sub-conjuntos. Será abordado neste artigo uma aplicação real e prática deste clássico problema da otimização, seu uso na localização de postos de ajuda humanitária em um assentamento de refugiados. No decorrer do artigo será abordado com maiores detalhes as escolhas tomadas e os pormenores do desenvolvimento. Foram obtidos resultados satisfatórios na solução do problema, tendo um grande potencial para problemas de larga escala. Este trabalho contribui com uma abordagem própria de resolução do problema da Máxima Cobertura, sendo consideravelmente confiável.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 nopadding">
+						<footer>
+							<span class="rodape-conteudo"> Copyright © 2018. Todos os direitos reservados. </span>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
