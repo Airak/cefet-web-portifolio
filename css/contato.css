@@ -7,9 +7,13 @@
 	margin: 20px auto;
 }
 
-#wrapper {
-	width: 500px;
+#sprites{
 	margin: 20px auto;
+}
+
+.map{
+    width: 50%;
+    margin: 0 auto;
 }
 
 #sp ul {
