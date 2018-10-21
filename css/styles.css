@@ -66,3 +66,7 @@ body{
 .modal-body{
 	text-align: center;
 }
+
+#logo{
+	font-family: 'Charmonman', cursive;
+}
