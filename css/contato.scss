@@ -1,0 +1,53 @@
+.row-contato{
+  margin-top: 40px;
+}
+
+#wrapper{
+  width: 500px;
+  margin: 20px auto;
+}
+#sprites{
+  margin: 20px auto;
+}
+
+.map{
+  width: 50%;
+  margin: 0 auto;
+}
+
+#sp{
+  ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+    a{
+      display: block;
+      width: 50px;
+      height: 55px;
+      text-indent: -9999px;
+      overflow: hidden;
+      background: #fff url('https://i.imgur.com/oLhLJUi.png') 0 0 no-repeat;
+      &.icone1{
+        background-position: 0 0;
+      }
+      &.icone2{
+        background-position: -58px -55px;
+      }
+      &.icone3{
+        background-position: -116px 0;
+      }
+      &.icone4{
+        background-position: -57px 0;
+      }
+      &.icone5{
+        background-position: 0px -55px;
+      }
+      &.icone6{
+        background-position: -116px -55px;
+      }
+    }
+  }
+}

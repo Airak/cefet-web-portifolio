@@ -23,21 +23,25 @@ footer {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 p, body {
-  font-family: "Quattrocento", serif;
+  font-family: 'Quattrocento', serif;
 }
 
-.btn:focus, .btn:active {
-  outline: none !important;
-  box-shadow: none !important;
+.btn {
+  &:focus, &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
 }
 
-button:focus, button:active {
-  outline: none !important;
-  box-shadow: none !important;
+button {
+  &:focus, &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
 }
 
 #image-gallery .modal-footer {
@@ -69,11 +73,9 @@ button:focus, button:active {
 }
 
 #logo {
-  font-family: "Charmonman", cursive;
+  font-family: 'Charmonman', cursive;
 }
 
 .container-conteudo {
   min-height: 62.4vh;
 }
-
-/*# sourceMappingURL=styles.css.map */

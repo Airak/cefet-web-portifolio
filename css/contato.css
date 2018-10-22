@@ -1,42 +1,54 @@
-.row-contato{
-	margin-top: 40px;
+.row-contato {
+  margin-top: 40px;
 }
 
 #wrapper {
-	width: 500px;
-	margin: 20px auto;
+  width: 500px;
+  margin: 20px auto;
 }
 
-#sprites{
-	margin: 20px auto;
+#sprites {
+  margin: 20px auto;
 }
 
-.map{
-    width: 50%;
-    margin: 0 auto;
+.map {
+  width: 50%;
+  margin: 0 auto;
 }
 
 #sp ul {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-
 #sp li {
-	display: inline-block;
+  display: inline-block;
 }
- #sp   li a {
-	display: block;
-	width: 50px;
-	height: 55px;
-	text-indent: -9999px;
-	overflow: hidden;
-	background: #fff url('https://i.imgur.com/oLhLJUi.png') 0 0 no-repeat;
+#sp li a {
+  display: block;
+  width: 50px;
+  height: 55px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: #fff url("https://i.imgur.com/oLhLJUi.png") 0 0 no-repeat;
+}
+#sp li a.icone1 {
+  background-position: 0 0;
+}
+#sp li a.icone2 {
+  background-position: -58px -55px;
+}
+#sp li a.icone3 {
+  background-position: -116px 0;
+}
+#sp li a.icone4 {
+  background-position: -57px 0;
+}
+#sp li a.icone5 {
+  background-position: 0px -55px;
+}
+#sp li a.icone6 {
+  background-position: -116px -55px;
 }
 
-#sp li a.icone1 { background-position: 0 0; } /*lastfm*/
-#sp li a.icone2 { background-position: -58px -55px; } /*steam*/
-#sp li a.icone3 { background-position: -116px 0; } /*linkedin*/
-#sp li a.icone4 { background-position: -57px 0; } /*instagram*/
-#sp li a.icone5 { background-position: 0px -55px; } /*twitter*/
-#sp	li a.icone6 { background-position: -116px -55px; } /*facebook*/
+/*# sourceMappingURL=contato.css.map */
